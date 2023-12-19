@@ -1,0 +1,132 @@
+
+body {
+  background-color: rgb(244, 239, 239);
+
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: auto;
+  margin-top: 10rem;
+  position: relative;
+  width: 20%;
+  border: none;
+  border-radius: 3rem;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.card_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 3rem 3rem 0 0;
+}
+
+.card_info {
+  padding: 1rem;
+}
+
+.card_title {
+  font-size: small;
+}
+
+.card_description {
+  font-size:x-small;
+}
+
+.extra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+ 
+border: none;
+background-color: white;
+}
+.btn_img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.dots {
+  display: flex;
+}
+.progress {
+  margin: auto;
+  display: flex;
+  gap: 0.2rem;
+}
+.current {
+  width: 15px;
+  border-radius: 35%;
+}
+
+/*ANIMATION*/
+/*
+.appearLeft {
+  animation: 3s appearLeft;
+}
+
+@keyframes appearLeft {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 40%;
+  }
+}
+
+.disappearRight {
+  animation: 3s disappearRight;
+}
+
+@keyframes disappearRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+
+.appearRight {
+  animation: 3s appearRight;
+}
+
+@keyframes appearRight {
+  from {
+    margin-right: -100%;
+  }
+  to {
+    margin-right: 40%;
+  }
+}
+
+.disappearLeft {
+  animation: 3 disappearLeft;
+}
+
+@keyframes disappearLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+*/
